@@ -8,7 +8,6 @@ MYSQL_STR="mysql"
 NGINX_STR="nginx"
 NACOS_STR="nacos"
 SENTINAL_STR="sentinal"
-ETCD_STR="etcd"
 PROMETHEUS_STR="promethues"
 
 log() {
