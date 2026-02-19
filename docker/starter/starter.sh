@@ -164,6 +164,7 @@ start_nacos_container_docker() {
     docker run --name nacos -d \
         --name my_nacos \
         -p 8848:8848 \
+        -p 9848:9848 \
         -e MODE=standalone \
         docker.1ms.run/nacos/nacos-server:v2.4.3
         
